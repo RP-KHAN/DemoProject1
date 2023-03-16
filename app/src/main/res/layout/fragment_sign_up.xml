@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.authentaction.SignUp"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/baseline_keyboard_backspace_24"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/baseline_how_to_reg_24"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter First Name"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/textdesign"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter Last Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/textdesign"
+        android:textSize="25dp" />
+
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="MALE"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Female"
+            android:textSize="20dp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter Password"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/textdesign"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:text="SUBMIT"
+        android:background="@drawable/design"/>
+
+</LinearLayout>

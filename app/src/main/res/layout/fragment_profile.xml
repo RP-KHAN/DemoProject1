@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.homefragments.Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_how_to_reg_24"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="RAMPRASAD KHAN"
+            android:textSize="30dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="MALE"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="170dp"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/baseline_logout_24"
+            android:text="Log Out"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/design_default_color_error"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>
